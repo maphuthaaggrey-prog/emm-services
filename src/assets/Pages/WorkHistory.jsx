@@ -28,7 +28,7 @@ function WorkHistory() {
                   <div className="timeline-content">
                     <h3 className="job-title">{project.roles}</h3>
                     <p className="company-name">{project.client}</p>
-                    <p className="job-period">{project.duration}</p>
+                    <p className="job-period">Duration: {project.duration}</p>
                     <p className="project-title">{project.title}</p>
                     <ul className="achievements-list">
                       {project.scope.map((item, index) => (
