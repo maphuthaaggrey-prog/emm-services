@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 const SEO = ({ 
   title = "Emily Mahlehu Mlotshywa (Pty) Ltd - Industrial Cleaning & Transportation Services",
   description = "South African company providing quality industrial cleaning, transportation, yellow plant services, water management, and civil construction with sustainable practices.",
-  canonical = "https://yourdomain.com/",
+  canonical = "https://www.emm-services.co.za/",
   image = "/logo.png"
 }) => {
   return (
