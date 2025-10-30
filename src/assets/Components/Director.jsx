@@ -4,11 +4,15 @@ const Director = () => {
     return (
         <>
                 <div className="wrap">
-            <div className="about-container">
-                <div className="about-left-pane">
-                   <p className="text002">TEAM</p>
+                <p className="text002">TEAM</p>
                    <p className="text003">MEET OUR DIRECTOR</p>
                    <p className="thick-line"></p>
+            <div className="about-container">
+                <div className="director-right-pane">
+                    <img src={director} className='director-image' alt="About image"></img>
+                </div>
+                <div className="about-left-pane">
+
                    <p className="text002"><span style={{fontSize: "20px"}}>Strike Amos Mnguni</span></p>
                    <p className="text002">Founder & Director — Emily Mahlehu Mlotshywa (Pty) Ltd</p>
                    <br />
@@ -20,9 +24,7 @@ const Director = () => {
                         <span> — Strike Amos Mnguni</span></p>
                     </div>
               </div>
-                <div className="director-right-pane">
-                    <img src={director} className='director-image' alt="About image"></img>
-                </div>
+
            </div>
       </div>
         
