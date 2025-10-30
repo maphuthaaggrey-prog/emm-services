@@ -311,7 +311,7 @@ nav ul li a {
   line-height: 1.5;
 }
 .text004 {
-  margin: 1.5em 0 6em;
+  margin: 1.5em 0 2em;
 }
 .text002 span {
   font-size: 15px;
@@ -982,6 +982,9 @@ input[type="submit"] {
   .text004 {
     width: 75%;
   }
+  .text004 {
+    margin: 1.5em 0 6em;
+}
   .wrap, .navbar, .footer-cont, .title, .footer-copyright  {
       width: 80%;
   }
