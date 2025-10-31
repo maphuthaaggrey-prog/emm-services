@@ -28,7 +28,7 @@ const Footer = () => {
       const [errors, setErrors] = useState({});
     
       const contactScriptURL =
-        "https://script.google.com/macros/s/AKfycbyL5QP-KwigXRJE0h_lKla5MFpv52uZZgQz8rZeoyE3wwrBcL4vj0PXHyOmjP9Op8hgJQ/exec";
+        "https://script.google.com/macros/s/AKfycbzPZwLcZkRowgHUZzUFOozA0sny7GfKfaEVuUeCN9EZNRBfFXdoMhfBa4bVvDMwDlVG3w/exec";
     
       const handleSubmit = async (e) => {
         e.preventDefault();
