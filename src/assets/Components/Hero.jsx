@@ -17,7 +17,7 @@ const Hero = () => {
 
     return (
         <>
-        <div className="hero">
+        <div className="hero" >
             <div className="wrap">
                 <div className="main-hero">
                     <p className="text001">WE VALUE QUALITY AND EXCELLENT SERVICES</p>

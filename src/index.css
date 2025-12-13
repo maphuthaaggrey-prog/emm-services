@@ -227,7 +227,9 @@ nav ul li a {
   text-decoration: none;
   color: inherit;
 }
-
+* {
+  display: none;
+}
 
 
 .open {
@@ -235,7 +237,7 @@ nav ul li a {
   opacity: 100%;
 }
 .wrap, .navbar, .footer-cont, .title, .footer-copyright  {
-    width: 94%;
+    display: none;
     margin: auto;
 
 }
