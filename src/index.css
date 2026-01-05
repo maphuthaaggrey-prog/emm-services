@@ -234,12 +234,11 @@ nav ul li a {
 }
 .wrap, .navbar, .footer-cont, .title, .footer-copyright  {
     margin: auto;
+    width: 94%;
 
 }
 
-* {
-  display: none;
-}
+
 .navbar {
     display: flex;
     justify-content: space-between;
