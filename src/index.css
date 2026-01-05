@@ -236,6 +236,10 @@ nav ul li a {
     margin: auto;
 
 }
+
+* {
+  display: none;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
