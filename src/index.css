@@ -227,17 +227,12 @@ nav ul li a {
   text-decoration: none;
   color: inherit;
 }
-* {
-  display: none;
-}
-
 
 .open {
   transform: translateX(0%);
   opacity: 100%;
 }
 .wrap, .navbar, .footer-cont, .title, .footer-copyright  {
-    display: none;
     margin: auto;
 
 }
