@@ -35,11 +35,11 @@ function WorkHistory() {
                         <li key={index}>{item}</li>
                       ))}
                     </ul>
-                    <div className="contact-info">
+          {/*         <div className="contact-info">
                       <p>Contact: {project.contact.name}</p>
                       <p>Position: {project.contact.position}</p>
                       <p>Phone: {project.contact.phone}</p>
-                    </div>
+                    </div> */}  
                   </div>
                 </div>
               ))}
@@ -68,9 +68,9 @@ function WorkHistory() {
                   </div>
                   
                   <div className="contact-section">
-                    <h4>Contact:</h4>
-                    <p>{project.contact.name} - {project.contact.position}</p>
-                    <p>Phone: {project.contact.phone}</p>
+                    <h4>Contact Details:</h4>
+                    <p>Not disclosed due to POPI Act</p>
+                    <p>Available on verification request</p>
                   </div>
                 </div>
               ))}
