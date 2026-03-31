@@ -345,7 +345,7 @@ h3 {
   display: flex;
   gap: 15px
 }
-.hero-contact-btn {
+.hero-contact-btn{
   margin-top: 1em;
   padding: 10px 30px;
   font-size: 13px;
@@ -357,7 +357,8 @@ h3 {
   cursor: pointer;
   transition: all .2s ease-in-out;
 }
-.hero-work-btn {
+
+.hero-work-btn, .request-contact  {
   margin-top: 1em;
   padding: 10px 30px;
   font-size: 13px;
@@ -368,6 +369,9 @@ h3 {
   border-radius: 30px;
   cursor: pointer;
   transition: all .2s ease-in-out;
+}
+.request-contact {
+  padding: 5px 15px;
 }
 .hero-contact-btn:hover {
   background-color: var(--primary);
@@ -931,6 +935,73 @@ input[type="submit"] {
   color: var(--primary);
   line-height: 1.5;
   margin: 0;
+}
+.modal-box {
+  background: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+
+}
+.modal-box  p, .modal-box p strong, .modal-box input{
+  font-size: 14px;
+}
+
+.modal-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  color: var(--primary);
+  background-color: white;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+
+}
+.modal-actions button:nth-of-type(1) {
+  padding: 4px 13px;
+  margin-top: 1em;
+  font-size: 13px;
+  border: 2px solid var(--primary);
+  background-color: var(--background);
+  color: var(--primary);
+  font-weight: 500;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.modal-actions button:nth-of-type(2) {
+  padding: 4px 13px;
+  margin-top: 1em;
+  font-size: 13px;
+  border: 2px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--background);
+  font-weight: 500;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.form-message {
+  margin-top: -6px;
+  margin-left: 5px;
+
+}
+
+.form-message.error {
+  color: rgba(230, 11, 11, 0.842);
+  font-size: 14px;
+}
+
+.form-message.success {
+  color: green;
+  font-size: 14px;
+
+
 }
 
 
